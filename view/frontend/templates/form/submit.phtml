@@ -1,0 +1,9 @@
+<div class="submit">
+    <form method="post" action="<?php echo $block->getFormUrl(); ?>">
+        <?php echo __('Name'); ?>: <input type="text" name="submit[name]" placeholder="<?php echo __('Name'); ?>"/><br/>
+        <?php echo __('Title'); ?>: <input type="text" name="submit[title]" placeholder="<?php echo __('Title'); ?>"/><br/>
+        <?php echo __('Description'); ?>:<br/>
+        <textarea name="submit[description]" placeholder="<?php echo __('Description'); ?>"></textarea>
+        <button type="submit"><?php echo __('Send'); ?></button>
+    </form>
+</div>

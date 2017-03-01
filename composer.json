@@ -1,0 +1,15 @@
+{
+    "name": "pictime/module-annonce",
+    "description": "Module gerant les annonces",
+    "type": "magento2-module",
+    "require": {}
+    "version":"100.0.7",
+    "autoload":{
+        "files":[
+            "registration.php"
+        ],
+        "psr-4":{
+            "Pictime\\Annonce\\":""
+        }
+    }
+}

@@ -1,0 +1,11 @@
+<?php foreach ($block->getAnnonces() as $annonce): ?>
+    <div class="annonce">
+        <h4><?php echo $annonce->getTitle(); ?></h4>
+        <div class="body">
+            <?php echo $annonce->getDescription(); ?>
+        </div>
+        <div class="author">
+            <?php echo __('By %author at %date', ['author' => $annonce->getAuthor(), 'date' => $block->formatDate($annonce->getCreatedAt())]); ?>
+        </div>
+    </div>
+<?php endforeach; ?>
