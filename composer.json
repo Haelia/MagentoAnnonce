@@ -2,7 +2,7 @@
     "name": "pictime/module-annonce",
     "description": "Module gerant les annonces",
     "type": "magento2-module",
-    "require": {}
+    "require": {},
     "version":"100.0.7",
     "autoload":{
         "files":[
